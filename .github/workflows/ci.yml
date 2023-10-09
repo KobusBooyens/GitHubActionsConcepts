@@ -32,6 +32,6 @@ jobs:
       uses: MaximilianoBz/dockerhub-buildpush@v1.0
       with:
         registry_url: 'docker.io'
-        repository_name: 'kobusbooyens94/local-dev'
+        repository_name: 'kobusbooyens94/local-dev:testing'
         user_name: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
